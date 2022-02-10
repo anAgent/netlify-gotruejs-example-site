@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "yarn start:client",
+    "start": "npm run start:client",
     "start:client": "webpack-dev-server --hot --config webpack.config.js",
-    "build": "yarn build:client",
+    "build": "npm run build:client",
     "build:client": "webpack --config webpack.config.js"
   },
   "author": "luna",
